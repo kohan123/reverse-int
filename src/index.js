@@ -1,8 +1,8 @@
 module.exports = function reverse (n) {
-    let rev = n;
+    let rever = n;
    if (n < 0) {
-    rev = n * (-1);
+    rever = n * (-1);
    } 
-   rev = Number(String(rev).split("").reverse().join(""));
-   return rev;
+   rever = Number(String(rever).split("").reverse().join(""));
+   return rever;
 }
